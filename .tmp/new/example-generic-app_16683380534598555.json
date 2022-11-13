@@ -1,0 +1,80 @@
+[
+  {
+    "keyword": "Feature",
+    "type": "feature",
+    "description": "",
+    "line": 1,
+    "name": "Example generic app",
+    "uri": "/Users/tomas/misc/automation-framework/my-app/login.feature",
+    "tags": [],
+    "elements": [
+      {
+        "keyword": "Scenario",
+        "type": "scenario",
+        "description": "",
+        "name": "As a user, I can log into the secure area",
+        "tags": [],
+        "id": "example-generic-app;as-a-user,-i-can-log-into-the-secure-area",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Before",
+            "name": "",
+            "result": { "status": "passed", "duration": 1000000 },
+            "line": null,
+            "match": { "location": "can not be determined with webdriver.io" }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given",
+            "name": "I open the app",
+            "result": { "status": "passed", "duration": 2000000 },
+            "line": null,
+            "match": { "location": "can not be determined with webdriver.io" }
+          },
+          {
+            "arguments": [],
+            "keyword": "When",
+            "name": "I wait for element \"landing-countryButton\"",
+            "result": { "status": "passed", "duration": 3323000000 },
+            "line": null,
+            "match": { "location": "can not be determined with webdriver.io" }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then",
+            "name": "I click on element \"landing-countryButton\"",
+            "result": { "status": "passed", "duration": 139000000 },
+            "line": null,
+            "match": { "location": "can not be determined with webdriver.io" }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "name": "I wait a moment \"10000\"",
+            "result": { "status": "passed", "duration": 10002000000 },
+            "line": null,
+            "match": { "location": "can not be determined with webdriver.io" }
+          },
+          {
+            "arguments": [],
+            "keyword": "After",
+            "name": "",
+            "result": { "status": "passed", "duration": 1000000 },
+            "line": null,
+            "match": { "location": "can not be determined with webdriver.io" }
+          }
+        ]
+      }
+    ],
+    "id": "example-generic-app",
+    "metadata": {
+      "browser": {
+        "name": "No metadata.browser.name available",
+        "version": "No metadata.browser.version available"
+      },
+      "device": "BY6X5TGUHQSS5LOJ",
+      "platform": { "name": "Android", "version": "10" }
+    }
+  }
+]
