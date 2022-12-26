@@ -10,15 +10,20 @@
     "@wdio/cucumber-framework": "^7.26.0",
     "@wdio/local-runner": "^7.26.0",
     "@wdio/spec-reporter": "^7.26.0",
+    "appium": "^1.22.3",
     "chromedriver": "^107.0.3",
     "ts-node": "^10.9.1",
     "typescript": "^4.8.4",
     "wdio-chromedriver-service": "^8.0.0",
-    "appium": "^1.22.3",
-    "wdio-cucumberjs-json-reporter": "^4.4.3"
+    "wdio-cucumberjs-json-reporter": "^4.4.3",
+    "start": "node index.js"
   },
   "scripts": {
     "e2e-web": "wdio run wdio.conf.ts",
-    "e2e-mobile": "wdio run wdio.conf.android.ts"
+    "e2e-mobile": "wdio run wdio.conf.android.ts",
+    "start": "ts-node api/index.ts"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
   }
 }
