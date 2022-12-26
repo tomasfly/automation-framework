@@ -1,7 +1,8 @@
-const express = require("express")
+// const express = require("express")
+import express from 'express';
 
-const PORT = process.env.PORT || 5000
-const app = express()
+const PORT:any = process.env.PORT || 5000
+const app:any = express()
 
 app.get("/", (req, res) => {
   res.send("Welcome to your App!")
