@@ -1,13 +1,14 @@
-// const express = require("express")
-import express from 'express';
 
-const PORT:any = process.env.PORT || 5000
-const app:any = express()
+import * as express from 'express';
+
+const app = express();
+const port = 3000;
 
 app.get("/", (req, res) => {
-  res.send("Welcome to your App!")
-})
-
-app.listen(PORT, function () {
-  console.log(`Express server listening on port ${PORT}`)
-})
+    res.send("Welcome to your App!")
+  })
+  
+  app.listen(port, function () {
+    console.log(`Express server listening on port ${port}`)
+  })
+  
